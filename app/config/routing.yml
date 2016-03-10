@@ -1,0 +1,5 @@
+main:
+    resource: "@MainBundle/Resources/config/routing.xml"
+    prefix:   /
+
+
