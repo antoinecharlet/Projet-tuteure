@@ -19,8 +19,8 @@ class __TwigTemplate_e50676f23b41b2c4f8547b0078d423dea654d812a3980d0735c505fac93
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4be68d05e55afa2eef1e35515ff292bed99ca7e8e8e9a8d157fad9dd30b8bdbf = $this->env->getExtension("native_profiler");
-        $__internal_4be68d05e55afa2eef1e35515ff292bed99ca7e8e8e9a8d157fad9dd30b8bdbf->enter($__internal_4be68d05e55afa2eef1e35515ff292bed99ca7e8e8e9a8d157fad9dd30b8bdbf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_a4e48133c1e3b91afada782af888fea6d0fd9a60f2311bcdc8b4dd6de4a31b6d = $this->env->getExtension("native_profiler");
+        $__internal_a4e48133c1e3b91afada782af888fea6d0fd9a60f2311bcdc8b4dd6de4a31b6d->enter($__internal_a4e48133c1e3b91afada782af888fea6d0fd9a60f2311bcdc8b4dd6de4a31b6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -31,72 +31,114 @@ class __TwigTemplate_e50676f23b41b2c4f8547b0078d423dea654d812a3980d0735c505fac93
         // line 5
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-        ";
+    ";
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 7
-        echo "        <link rel=\"icon\" type=\"image/x-icon\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("favicon.ico"), "html", null, true);
-        echo "\" />
-    </head>
-    <body>
+        echo "    <link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\">
+</head>
+<body>
+    <div id=\"wrapper\">
+        <header id=\"header\">
+            <!-- top menu -->
+            <nav class=\"navbar navbar-inverse navTop\">
+                <div class=\"container\">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class=\"navbar-header\">
+                        <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">
+                            <span class=\"sr-only\">Toggle navigation</span>
+                            <span class=\"icon-bar\"></span>
+                            <span class=\"icon-bar\"></span>
+                            <span class=\"icon-bar\"></span>
+                        </button>
+                        <a class=\"navbar-brand\" href=\"#\">Brand</a>
+                    </div>
+                    <form class=\"navbar-form navbar-right\" role=\"search\">
+                        <div class=\"form-group\">
+                            <input type=\"email\" class=\"form-control\" placeholder=\"E-mail\">
+                        </div>
+                        <div class=\"form-group\">
+                            <input type=\"password\" class=\"form-control\" placeholder=\"Mot de passe\">
+                        </div>
+                        <button type=\"submit\" class=\"btn btn-primary\">Connexion</button>
+                    </form>
+
+                </div>
+            </nav>
+        </header>
+        <div id=\"content\">
         ";
-        // line 10
+        // line 39
         $this->displayBlock('body', $context, $blocks);
-        // line 11
-        echo "        ";
+        // line 40
+        echo "    </div>
+    <footer id=\"footer\">
+        <nav  class=\" navbar navbar-inverse navBot\">
+            <div class=\"collapse navbar-collapse\">
+                <ul class=\"nav navbar-nav\">
+                    <li><a href=\"#\">Home</a></li>
+                    <li><a href=\"#\">Library</a></li>
+                    <li><a href=\"#\">Data</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</div>
+<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>
+<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>
+";
+        // line 55
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 12
-        echo "    </body>
+        // line 56
+        echo "</body>
 </html>
 ";
         
-        $__internal_4be68d05e55afa2eef1e35515ff292bed99ca7e8e8e9a8d157fad9dd30b8bdbf->leave($__internal_4be68d05e55afa2eef1e35515ff292bed99ca7e8e8e9a8d157fad9dd30b8bdbf_prof);
+        $__internal_a4e48133c1e3b91afada782af888fea6d0fd9a60f2311bcdc8b4dd6de4a31b6d->leave($__internal_a4e48133c1e3b91afada782af888fea6d0fd9a60f2311bcdc8b4dd6de4a31b6d_prof);
 
     }
 
     // line 5
     public function block_title($context, array $blocks = array())
     {
-        $__internal_dcff39cf012bba3507baf85e5a21830d64e551d611aefe05a7909e59892c95cd = $this->env->getExtension("native_profiler");
-        $__internal_dcff39cf012bba3507baf85e5a21830d64e551d611aefe05a7909e59892c95cd->enter($__internal_dcff39cf012bba3507baf85e5a21830d64e551d611aefe05a7909e59892c95cd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_a59ab58a406888dd273d5eb7b7de7bef820a6e701b59e7342be9d7bdd34a4420 = $this->env->getExtension("native_profiler");
+        $__internal_a59ab58a406888dd273d5eb7b7de7bef820a6e701b59e7342be9d7bdd34a4420->enter($__internal_a59ab58a406888dd273d5eb7b7de7bef820a6e701b59e7342be9d7bdd34a4420_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome!";
         
-        $__internal_dcff39cf012bba3507baf85e5a21830d64e551d611aefe05a7909e59892c95cd->leave($__internal_dcff39cf012bba3507baf85e5a21830d64e551d611aefe05a7909e59892c95cd_prof);
+        $__internal_a59ab58a406888dd273d5eb7b7de7bef820a6e701b59e7342be9d7bdd34a4420->leave($__internal_a59ab58a406888dd273d5eb7b7de7bef820a6e701b59e7342be9d7bdd34a4420_prof);
 
     }
 
     // line 6
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_d7bbc59aa606ba634cf5798af690904b092f20be7d1efd5e6d5f7fd198f7b4be = $this->env->getExtension("native_profiler");
-        $__internal_d7bbc59aa606ba634cf5798af690904b092f20be7d1efd5e6d5f7fd198f7b4be->enter($__internal_d7bbc59aa606ba634cf5798af690904b092f20be7d1efd5e6d5f7fd198f7b4be_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_c19a32b0598403bad6d0da3238f64d8a6a8bd42d595c12ad78ec8335ff7cc57a = $this->env->getExtension("native_profiler");
+        $__internal_c19a32b0598403bad6d0da3238f64d8a6a8bd42d595c12ad78ec8335ff7cc57a->enter($__internal_c19a32b0598403bad6d0da3238f64d8a6a8bd42d595c12ad78ec8335ff7cc57a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_d7bbc59aa606ba634cf5798af690904b092f20be7d1efd5e6d5f7fd198f7b4be->leave($__internal_d7bbc59aa606ba634cf5798af690904b092f20be7d1efd5e6d5f7fd198f7b4be_prof);
+        $__internal_c19a32b0598403bad6d0da3238f64d8a6a8bd42d595c12ad78ec8335ff7cc57a->leave($__internal_c19a32b0598403bad6d0da3238f64d8a6a8bd42d595c12ad78ec8335ff7cc57a_prof);
 
     }
 
-    // line 10
+    // line 39
     public function block_body($context, array $blocks = array())
     {
-        $__internal_7e91dabb664dbebe9216f9bf35532e7606909b4710c7237df188725852d2cb2e = $this->env->getExtension("native_profiler");
-        $__internal_7e91dabb664dbebe9216f9bf35532e7606909b4710c7237df188725852d2cb2e->enter($__internal_7e91dabb664dbebe9216f9bf35532e7606909b4710c7237df188725852d2cb2e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_94774ea78777ff10d736810e94ab4c333a42ca8c815f4e34758d8ab7b67bb131 = $this->env->getExtension("native_profiler");
+        $__internal_94774ea78777ff10d736810e94ab4c333a42ca8c815f4e34758d8ab7b67bb131->enter($__internal_94774ea78777ff10d736810e94ab4c333a42ca8c815f4e34758d8ab7b67bb131_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         
-        $__internal_7e91dabb664dbebe9216f9bf35532e7606909b4710c7237df188725852d2cb2e->leave($__internal_7e91dabb664dbebe9216f9bf35532e7606909b4710c7237df188725852d2cb2e_prof);
+        $__internal_94774ea78777ff10d736810e94ab4c333a42ca8c815f4e34758d8ab7b67bb131->leave($__internal_94774ea78777ff10d736810e94ab4c333a42ca8c815f4e34758d8ab7b67bb131_prof);
 
     }
 
-    // line 11
+    // line 55
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_29e0cf6309ca211d6b8224ef8c2e9d78c37e6047c7f2cf75ddd1ec66b200c91b = $this->env->getExtension("native_profiler");
-        $__internal_29e0cf6309ca211d6b8224ef8c2e9d78c37e6047c7f2cf75ddd1ec66b200c91b->enter($__internal_29e0cf6309ca211d6b8224ef8c2e9d78c37e6047c7f2cf75ddd1ec66b200c91b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_6b73c6290844a1b904bb1fb30841a5fe10b95f7d2af00f88316dd43fef54766a = $this->env->getExtension("native_profiler");
+        $__internal_6b73c6290844a1b904bb1fb30841a5fe10b95f7d2af00f88316dd43fef54766a->enter($__internal_6b73c6290844a1b904bb1fb30841a5fe10b95f7d2af00f88316dd43fef54766a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         
-        $__internal_29e0cf6309ca211d6b8224ef8c2e9d78c37e6047c7f2cf75ddd1ec66b200c91b->leave($__internal_29e0cf6309ca211d6b8224ef8c2e9d78c37e6047c7f2cf75ddd1ec66b200c91b_prof);
+        $__internal_6b73c6290844a1b904bb1fb30841a5fe10b95f7d2af00f88316dd43fef54766a->leave($__internal_6b73c6290844a1b904bb1fb30841a5fe10b95f7d2af00f88316dd43fef54766a_prof);
 
     }
 
@@ -105,27 +147,66 @@ class __TwigTemplate_e50676f23b41b2c4f8547b0078d423dea654d812a3980d0735c505fac93
         return "base.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  93 => 11,  82 => 10,  71 => 6,  59 => 5,  50 => 12,  47 => 11,  45 => 10,  38 => 7,  36 => 6,  32 => 5,  26 => 1,);
+        return array (  135 => 55,  124 => 39,  113 => 6,  102 => 5,  93 => 56,  91 => 55,  74 => 40,  72 => 39,  38 => 7,  36 => 6,  32 => 5,  26 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
 /* <html>*/
 /*     <head>*/
 /*         <meta charset="UTF-8" />*/
-/*         <title>{% block title %}Welcome!{% endblock %}</title>*/
-/*         {% block stylesheets %}{% endblock %}*/
-/*         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />*/
-/*     </head>*/
-/*     <body>*/
+/*         <title>{% block title %}{% endblock %}</title>*/
+/*     {% block stylesheets %}{% endblock %}*/
+/*     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">*/
+/* </head>*/
+/* <body>*/
+/*     <div id="wrapper">*/
+/*         <header id="header">*/
+/*             <!-- top menu -->*/
+/*             <nav class="navbar navbar-inverse navTop">*/
+/*                 <div class="container">*/
+/*                     <!-- Brand and toggle get grouped for better mobile display -->*/
+/*                     <div class="navbar-header">*/
+/*                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">*/
+/*                             <span class="sr-only">Toggle navigation</span>*/
+/*                             <span class="icon-bar"></span>*/
+/*                             <span class="icon-bar"></span>*/
+/*                             <span class="icon-bar"></span>*/
+/*                         </button>*/
+/*                         <a class="navbar-brand" href="#">Brand</a>*/
+/*                     </div>*/
+/*                     <form class="navbar-form navbar-right" role="search">*/
+/*                         <div class="form-group">*/
+/*                             <input type="email" class="form-control" placeholder="E-mail">*/
+/*                         </div>*/
+/*                         <div class="form-group">*/
+/*                             <input type="password" class="form-control" placeholder="Mot de passe">*/
+/*                         </div>*/
+/*                         <button type="submit" class="btn btn-primary">Connexion</button>*/
+/*                     </form>*/
+/* */
+/*                 </div>*/
+/*             </nav>*/
+/*         </header>*/
+/*         <div id="content">*/
 /*         {% block body %}{% endblock %}*/
-/*         {% block javascripts %}{% endblock %}*/
-/*     </body>*/
+/*     </div>*/
+/*     <footer id="footer">*/
+/*         <nav  class=" navbar navbar-inverse navBot">*/
+/*             <div class="collapse navbar-collapse">*/
+/*                 <ul class="nav navbar-nav">*/
+/*                     <li><a href="#">Home</a></li>*/
+/*                     <li><a href="#">Library</a></li>*/
+/*                     <li><a href="#">Data</a></li>*/
+/*                 </ul>*/
+/*             </div>*/
+/*         </nav>*/
+/*     </footer>*/
+/* </div>*/
+/* <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>*/
+/* <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>*/
+/* {% block javascripts %}{% endblock %}*/
+/* </body>*/
 /* </html>*/
 /* */

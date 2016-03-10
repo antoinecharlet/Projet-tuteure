@@ -23,27 +23,27 @@ class __TwigTemplate_cf8d7a7bf05a7418624785a24c330a384d73aca5b05dfc6552c54a6a287
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4f1c757937af2785e4fe4820100a87b67fe7fe2d73f8e548e600199c07ab6ee8 = $this->env->getExtension("native_profiler");
-        $__internal_4f1c757937af2785e4fe4820100a87b67fe7fe2d73f8e548e600199c07ab6ee8->enter($__internal_4f1c757937af2785e4fe4820100a87b67fe7fe2d73f8e548e600199c07ab6ee8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MainBundle:Default:index.html.twig"));
+        $__internal_72ad4f7fa99796a8b558093cb3701dd9a367422ebe172654b010069749bebd89 = $this->env->getExtension("native_profiler");
+        $__internal_72ad4f7fa99796a8b558093cb3701dd9a367422ebe172654b010069749bebd89->enter($__internal_72ad4f7fa99796a8b558093cb3701dd9a367422ebe172654b010069749bebd89_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MainBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_4f1c757937af2785e4fe4820100a87b67fe7fe2d73f8e548e600199c07ab6ee8->leave($__internal_4f1c757937af2785e4fe4820100a87b67fe7fe2d73f8e548e600199c07ab6ee8_prof);
+        $__internal_72ad4f7fa99796a8b558093cb3701dd9a367422ebe172654b010069749bebd89->leave($__internal_72ad4f7fa99796a8b558093cb3701dd9a367422ebe172654b010069749bebd89_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_db4af3d9de62c52b630b0aa580bc06f239358f98c3a343bfc20f83e677b79e23 = $this->env->getExtension("native_profiler");
-        $__internal_db4af3d9de62c52b630b0aa580bc06f239358f98c3a343bfc20f83e677b79e23->enter($__internal_db4af3d9de62c52b630b0aa580bc06f239358f98c3a343bfc20f83e677b79e23_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_15b166fe5656b8981f533a2269560d5ca6327ea90f22fcb8c4699a8fea08298b = $this->env->getExtension("native_profiler");
+        $__internal_15b166fe5656b8981f533a2269560d5ca6327ea90f22fcb8c4699a8fea08298b->enter($__internal_15b166fe5656b8981f533a2269560d5ca6327ea90f22fcb8c4699a8fea08298b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <div id=\"wrapper\">
         <div class=\"container margTop50\">
             
                 <div class=\"container col-xs-5 block\">
-                    <h1>Je suis Étudiant/Alternant</h1>
+                    <h1>Je suis Étudiant/Afdernant</h1>
                     <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita. Qui ut huic virilem togam deditšnihil dicam hoc loco de me; tantum sit, quantum vos existimatis; hoc dicam, hunc a patre continuo ad me esse deductum; nemo hunc M. Caelium in illo aetatis flore vidit nisi aut cum patre aut mecum aut in M. Crassi castissima domo, cum artibus honestissimis erudiretur.</p>
                 </div>
                 <div class=\"container col-xs-5 col-xs-offset-2 block\">
@@ -58,35 +58,30 @@ class __TwigTemplate_cf8d7a7bf05a7418624785a24c330a384d73aca5b05dfc6552c54a6a287
     </div>
 ";
         
-        $__internal_db4af3d9de62c52b630b0aa580bc06f239358f98c3a343bfc20f83e677b79e23->leave($__internal_db4af3d9de62c52b630b0aa580bc06f239358f98c3a343bfc20f83e677b79e23_prof);
+        $__internal_15b166fe5656b8981f533a2269560d5ca6327ea90f22fcb8c4699a8fea08298b->leave($__internal_15b166fe5656b8981f533a2269560d5ca6327ea90f22fcb8c4699a8fea08298b_prof);
 
     }
 
     // line 23
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_05370926a3e696485241ce9556d3d853df376f86c4ff31e364c6e35c46f832f0 = $this->env->getExtension("native_profiler");
-        $__internal_05370926a3e696485241ce9556d3d853df376f86c4ff31e364c6e35c46f832f0->enter($__internal_05370926a3e696485241ce9556d3d853df376f86c4ff31e364c6e35c46f832f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_e9df41a6f2c9913e1cab356010bab2b67d4dbf0e1f176da3cbfc09b9d84411ff = $this->env->getExtension("native_profiler");
+        $__internal_e9df41a6f2c9913e1cab356010bab2b67d4dbf0e1f176da3cbfc09b9d84411ff->enter($__internal_e9df41a6f2c9913e1cab356010bab2b67d4dbf0e1f176da3cbfc09b9d84411ff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 24
-        echo "    <link rel=\"stylesheet\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("css/style/index.css"), "html", null, true);
-        echo "\" type=\"text/css\" />
-";
         
-        $__internal_05370926a3e696485241ce9556d3d853df376f86c4ff31e364c6e35c46f832f0->leave($__internal_05370926a3e696485241ce9556d3d853df376f86c4ff31e364c6e35c46f832f0_prof);
+        $__internal_e9df41a6f2c9913e1cab356010bab2b67d4dbf0e1f176da3cbfc09b9d84411ff->leave($__internal_e9df41a6f2c9913e1cab356010bab2b67d4dbf0e1f176da3cbfc09b9d84411ff_prof);
 
     }
 
-    // line 27
+    // line 26
     public function block_title($context, array $blocks = array())
     {
-        $__internal_9313bb77687818399196edd98196fd0b4fadd34c9473a4ab40661fe792b269bc = $this->env->getExtension("native_profiler");
-        $__internal_9313bb77687818399196edd98196fd0b4fadd34c9473a4ab40661fe792b269bc->enter($__internal_9313bb77687818399196edd98196fd0b4fadd34c9473a4ab40661fe792b269bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_748dc494ef9cf377ad58c71da4c91265fe8dcb12e80365b0516c0263e6f8ca24 = $this->env->getExtension("native_profiler");
+        $__internal_748dc494ef9cf377ad58c71da4c91265fe8dcb12e80365b0516c0263e6f8ca24->enter($__internal_748dc494ef9cf377ad58c71da4c91265fe8dcb12e80365b0516c0263e6f8ca24_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Page d'accueil";
         
-        $__internal_9313bb77687818399196edd98196fd0b4fadd34c9473a4ab40661fe792b269bc->leave($__internal_9313bb77687818399196edd98196fd0b4fadd34c9473a4ab40661fe792b269bc_prof);
+        $__internal_748dc494ef9cf377ad58c71da4c91265fe8dcb12e80365b0516c0263e6f8ca24->leave($__internal_748dc494ef9cf377ad58c71da4c91265fe8dcb12e80365b0516c0263e6f8ca24_prof);
 
     }
 
@@ -102,7 +97,7 @@ class __TwigTemplate_cf8d7a7bf05a7418624785a24c330a384d73aca5b05dfc6552c54a6a287
 
     public function getDebugInfo()
     {
-        return array (  82 => 27,  72 => 24,  66 => 23,  42 => 4,  36 => 3,  11 => 1,);
+        return array (  77 => 26,  66 => 23,  42 => 4,  36 => 3,  11 => 1,);
     }
 }
 /* {% extends 'base.html.twig' %}*/
@@ -112,7 +107,7 @@ class __TwigTemplate_cf8d7a7bf05a7418624785a24c330a384d73aca5b05dfc6552c54a6a287
 /*         <div class="container margTop50">*/
 /*             */
 /*                 <div class="container col-xs-5 block">*/
-/*                     <h1>Je suis Étudiant/Alternant</h1>*/
+/*                     <h1>Je suis Étudiant/Afdernant</h1>*/
 /*                     <p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris diligentia disciplinaque munita. Qui ut huic virilem togam deditšnihil dicam hoc loco de me; tantum sit, quantum vos existimatis; hoc dicam, hunc a patre continuo ad me esse deductum; nemo hunc M. Caelium in illo aetatis flore vidit nisi aut cum patre aut mecum aut in M. Crassi castissima domo, cum artibus honestissimis erudiretur.</p>*/
 /*                 </div>*/
 /*                 <div class="container col-xs-5 col-xs-offset-2 block">*/
@@ -128,7 +123,6 @@ class __TwigTemplate_cf8d7a7bf05a7418624785a24c330a384d73aca5b05dfc6552c54a6a287
 /* {% endblock %}*/
 /* */
 /* {% block stylesheets %}*/
-/*     <link rel="stylesheet" href="{{ asset('css/style/index.css') }}" type="text/css" />*/
 /* {% endblock %}*/
 /* */
 /* {% block title %}Page d'accueil{% endblock %}*/
